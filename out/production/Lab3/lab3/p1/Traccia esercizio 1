@@ -1,0 +1,7 @@
+Progettare e realizzare una semplice applicazione RMI client/server per realizzare una calcolatrice:
+    Interfaccia remota Calculator che definire i metodi per le operazioni di somma, sottrazione, divisione e moltiplicazione;
+    CalculatorImpl implementa l'interfaccia Calculator ed estende java.rmi.server.UnicastRemoteObject definendo la logica dell'applicazione;
+    CalculatorServer definisce solo il metodo main e costruisce ed esporta l'oggetto remoto CalculatorImpl;
+    CalculatorClient utilizza l'oggetto remoto Calculator.
+
+
